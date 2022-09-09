@@ -15600,7 +15600,7 @@ a.badge-danger:focus {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    opacity: .5;
+    opacity: .75;
     padding: 1rem;
     margin-bottom: 1rem;
     -webkit-box-align: center;
