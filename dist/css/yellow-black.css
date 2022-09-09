@@ -216,7 +216,7 @@ table {
 caption {
     padding-top: .75rem;
     padding-bottom: .75rem;
-    color: rgba(0, 0, 0, .6);
+    color: rgba(0, 0, 0, .7);
     text-align: left;
     caption-side: bottom
 }
@@ -496,7 +496,7 @@ mark {
 .blockquote-footer {
     display: block;
     font-size: 75%;
-    color: rgba(0, 0, 0, .6)
+    color: rgba(0, 0, 0, .7)
 }
 
 .blockquote-footer:before {
@@ -6952,11 +6952,11 @@ a.text-danger:hover {
 }
 
 .text-muted {
-    color: rgba(0, 0, 0, .6) !important
+    color: rgba(0, 0, 0, .7) !important
 }
 
 .text-black-50 {
-    color: rgba(0, 0, 0, .5) !important
+    color: rgba(0, 0, 0, .6) !important
 }
 
 .text-white-50 {
@@ -7016,7 +7016,7 @@ a.text-danger:hover {
 
 .figure-caption {
     font-size: 90%;
-    color: rgba(0, 0, 0, .6)
+    color: rgba(0, 0, 0, .7)
 }
 
 code {
@@ -9475,7 +9475,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-primary.focus,
 .btn-outline-primary:focus {
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, .5)
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, .6)
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled).active,
@@ -9487,7 +9487,7 @@ fieldset:disabled a.btn {
 .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
 .show>.btn-outline-primary.dropdown-toggle:focus {
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, .5)
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, .6)
 }
 
 .btn-outline-success:hover {
@@ -9551,7 +9551,7 @@ fieldset:disabled a.btn {
 
 .btn-link.disabled,
 .btn-link:disabled {
-    color: rgba(0, 0, 0, .6);
+    color: rgba(0, 0, 0, .7);
     pointer-events: none
 }
 
@@ -10032,7 +10032,7 @@ input[type=submit].btn-block {
     margin-bottom: 0;
     font-size: 12.25px;
     font-size: .875rem;
-    color: rgba(0, 0, 0, .6);
+    color: rgba(0, 0, 0, .7);
     white-space: nowrap
 }
 
@@ -10339,7 +10339,7 @@ input[type=submit].btn-block {
     text-align: center;
     white-space: nowrap;
     background-color: rgba(0, 0, 0, 0);
-    border: 2px solid rgba(0, 0, 0, .6);
+    border: 2px solid rgba(0, 0, 0, .7);
     border-radius: 0
 }
 
@@ -10410,7 +10410,7 @@ input[type=submit].btn-block {
 }
 
 .input-group {
-    border-bottom: 2px solid rgba(0, 0, 0, .6)
+    border-bottom: 2px solid rgba(0, 0, 0, .7)
 }
 
 .input-group>.custom-file,
@@ -10485,7 +10485,7 @@ input[type=submit].btn-block {
     color: #000;
     background-color: rgba(0, 0, 0, 0);
     background-clip: padding-box;
-    border: 2px solid rgba(0, 0, 0, .6);
+    border: 2px solid rgba(0, 0, 0, .7);
     border-radius: 0;
     -webkit-transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
@@ -10517,27 +10517,27 @@ input[type=submit].btn-block {
 }
 
 .form-control::-webkit-input-placeholder {
-    color: rgba(0, 0, 0, .6);
+    color: rgba(0, 0, 0, .7);
     opacity: 1
 }
 
 .form-control::-moz-placeholder {
-    color: rgba(0, 0, 0, .6);
+    color: rgba(0, 0, 0, .7);
     opacity: 1
 }
 
 .form-control:-ms-input-placeholder {
-    color: rgba(0, 0, 0, .6);
+    color: rgba(0, 0, 0, .7);
     opacity: 1
 }
 
 .form-control::-ms-input-placeholder {
-    color: rgba(0, 0, 0, .6);
+    color: rgba(0, 0, 0, .7);
     opacity: 1
 }
 
 .form-control::placeholder {
-    color: rgba(0, 0, 0, .6);
+    color: rgba(0, 0, 0, .7);
     opacity: 1
 }
 
@@ -10667,7 +10667,7 @@ textarea.form-control {
 
 .form-check-input:disabled~.form-check-label,
 .form-check-input[disabled]~.form-check-label {
-    color: rgba(0, 0, 0, .6)
+    color: rgba(0, 0, 0, .7)
 }
 
 .form-check-label {
@@ -11118,7 +11118,7 @@ input:-webkit-autofill:hover {
     pointer-events: none;
     content: "";
     background-color: rgba(0, 0, 0, 0);
-    border: 2px solid rgba(0, 0, 0, .5)
+    border: 2px solid rgba(0, 0, 0, .6)
 }
 
 .custom-control-label:after {
@@ -11191,7 +11191,7 @@ input:-webkit-autofill:hover {
     left: calc(-2.25rem + 4px);
     width: calc(1rem - 8px);
     height: calc(1rem - 8px);
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .6);
     border-radius: .5rem;
     -webkit-transition: background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-transform .15s ease-in-out;
     transition: background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-transform .15s ease-in-out;
@@ -11229,7 +11229,7 @@ input:-webkit-autofill:hover {
     color: #000;
     vertical-align: middle;
     background: rgba(0, 0, 0, 0) url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5'%3E%3Cpath fill='rgba(0, 0, 0, 0.8)' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right 0 center/8px 10px;
-    border: 2px solid rgba(0, 0, 0, .6);
+    border: 2px solid rgba(0, 0, 0, .7);
     border-radius: 0;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -11334,7 +11334,7 @@ input:-webkit-autofill:hover {
     line-height: 1.5;
     color: #000;
     background-color: rgba(0, 0, 0, 0);
-    border: 2px solid rgba(0, 0, 0, .6);
+    border: 2px solid rgba(0, 0, 0, .7);
     border-radius: 0
 }
 
@@ -11628,7 +11628,7 @@ input:-webkit-autofill:hover {
 }
 
 .nav-link.disabled {
-    color: rgba(0, 0, 0, .6);
+    color: rgba(0, 0, 0, .7);
     pointer-events: none;
     cursor: default
 }
@@ -11655,7 +11655,7 @@ input:-webkit-autofill:hover {
 }
 
 .nav-tabs .nav-link.disabled {
-    color: rgba(0, 0, 0, .6);
+    color: rgba(0, 0, 0, .7);
     background-color: rgba(0, 0, 0, 0);
     border-color: rgba(0, 0, 0, 0)
 }
@@ -12616,7 +12616,7 @@ input:-webkit-autofill:hover {
 }
 
 .sections-nav-link:hover:not(.active) {
-    color: rgba(0, 0, 0, .5)
+    color: rgba(0, 0, 0, .6)
 }
 
 .sections-nav-link:hover:not(.active):before {
@@ -12626,7 +12626,7 @@ input:-webkit-autofill:hover {
 }
 
 .sections-nav-link.active {
-    color: rgba(0, 0, 0, .5)
+    color: rgba(0, 0, 0, .6)
 }
 
 .sections-nav-link.active:before {
@@ -13107,7 +13107,7 @@ input:-webkit-autofill:hover {
 .breadcrumb-item+.breadcrumb-item:before {
     display: inline-block;
     padding-right: .5rem;
-    color: rgba(0, 0, 0, .6);
+    color: rgba(0, 0, 0, .7);
     content: "/"
 }
 
@@ -13120,7 +13120,7 @@ input:-webkit-autofill:hover {
 }
 
 .breadcrumb-item.active {
-    color: rgba(0, 0, 0, .6)
+    color: rgba(0, 0, 0, .7)
 }
 
 .breadcrumb {
@@ -13308,7 +13308,7 @@ a.badge-primary:hover {
 a.badge-primary.focus,
 a.badge-primary:focus {
     outline: 0;
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, .5)
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, .6)
 }
 
 .badge-success {
@@ -14031,7 +14031,7 @@ a.badge-danger:focus {
     -ms-flex-align: center;
     align-items: center;
     padding: .25rem .75rem;
-    color: rgba(0, 0, 0, .6);
+    color: rgba(0, 0, 0, .7);
     background-color: hsla(0, 0%, 100%, .85);
     background-clip: padding-box;
     border-bottom: 1px solid rgba(0, 0, 0, .05)
@@ -15240,7 +15240,7 @@ a.badge-danger:focus {
     font-size: 21px;
     font-size: 1.5rem;
     font-weight: 400;
-    color: rgba(0, 0, 0, .6)
+    color: rgba(0, 0, 0, .7)
 }
 
 .article-tags {
@@ -15259,7 +15259,7 @@ a.badge-danger:focus {
 
 .counter-label {
     display: block;
-    color: rgba(0, 0, 0, .6);
+    color: rgba(0, 0, 0, .7);
     font-size: 12.25px;
     font-size: .875rem;
     font-weight: 700;
@@ -15522,7 +15522,7 @@ a.badge-danger:focus {
 .timeline-date {
     display: block;
     margin-bottom: 1rem;
-    color: rgba(0, 0, 0, .6);
+    color: rgba(0, 0, 0, .7);
     font-size: 12.25px;
     font-size: .875rem
 }
@@ -15682,11 +15682,11 @@ a.badge-danger:focus {
     margin-bottom: 2rem;
     font-size: 14px;
     font-size: 1rem;
-    color: rgba(0, 0, 0, .5)
+    color: rgba(0, 0, 0, .6)
 }
 
 .testimonial-subtitle a {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, .6);
     font-weight: 400
 }
 
@@ -15718,7 +15718,7 @@ a.badge-danger:focus {
     font-size: 12.25px;
     font-size: .875rem;
     text-transform: uppercase;
-    color: rgba(0, 0, 0, .6)
+    color: rgba(0, 0, 0, .7)
 }
 
 .animation {
@@ -15912,7 +15912,7 @@ a.badge-danger:focus {
 
     blockquote,
     pre {
-        border: 2px solid rgba(0, 0, 0, .5);
+        border: 2px solid rgba(0, 0, 0, .6);
         page-break-inside: avoid
     }
 
